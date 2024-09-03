@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h3>ToDo List</h3>
+      </div>
+      <div class="form-container">
+        <form onsubmit="addTodo(event)">
+          <input type="text" id="input" placeholder="Add ToDo" />
+          <button type="submit" id="submit">Add</button>
+        </form>
+      </div>
+      <div></div>
+      <ul class="todo-list-container" id="todoList">
+        <li class="checked">First todo</li>
+        <li>Second todo</li>
+      </ul>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Weather Status</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <h3>Weather Status</h3>
+      </nav>
+      <section>
+        <div class="form-container">
+          <!-- <form method="get"> -->
+          <input type="text" placeholder="Enter city name..." id="city_name" />
+          <button type="submit" id="submit_btn">Check</button>
+          <!-- </form> -->
+        </div>
+        <div>
+          Result :
+
+          <div class="card">
+            <p>Temperature : <span id="temperature"></span></p>
+            <p id="description"></p>
+            <p>Wind speed : <span id="windspeed"></span></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

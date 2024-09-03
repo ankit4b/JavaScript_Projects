@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Quiz App</h2>
+      <div id="result">
+        <h3>Score : <span id="correct"></span> / <span id="total"></span></h3>
+      </div>
+      <section>
+        <h4 class="question" id="question">What is the capital of India?</h4>
+        <ul class="options" id="options"></ul>
+      </section>
+      <div class="footer">
+        <button class="btn" onclick="buttonClick()" id="btn">Next</button>
+      </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
